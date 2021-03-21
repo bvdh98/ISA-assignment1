@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Quiz Assignment</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+<div class='landingDiv'>
+    <a class='landingPageButton'href="admin.html">Admin Page</a>
+    <a class='landingPageButton' href="student.html">Student Page</a>
+</div>
+
+<script>
+    // CHECK IF LOCALSTORAGE IS SUPPORTED
+    const msg_notSupported = "Sorry, Local Storage is not supported";
+    if (typeof (Storage) == 'undefined') {
+        document.write(msg_notSupported);
+    }
+
+</script>
+
+</body>
+
+
+</html>
